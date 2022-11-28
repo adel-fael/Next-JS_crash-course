@@ -36,7 +36,7 @@ export const getStaticProps = async (ctx) => {
         title:selectedMeetup.title,
         image:selectedMeetup.image,
         address:selectedMeetup.address,
-        description:selectedMeetup.title,
+        description:selectedMeetup.description,
       },
 
     },
