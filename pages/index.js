@@ -53,6 +53,6 @@ export async function getStaticProps() {
         id: meetup._id.toString(),
       })),
     },
-    revalidate: 30  // in sec 
+    revalidate: 5  // in sec, it is the time so the function refresh/refetch
   }
 }
